@@ -58,3 +58,6 @@ if ( ! defined( 'DS_LIVE_COMPOSER_VER' ) ) {
 	<?php }
 	add_action( 'admin_notices', 'lct_notification' );
 }
+
+//Add support for classic menu admin management in Wordpress back-end > Appearance > Menu
+add_theme_support( 'menus' );
